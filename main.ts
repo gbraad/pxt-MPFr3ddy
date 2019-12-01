@@ -19,7 +19,7 @@ namespace mpfr3ddy {
         initialized = true
     }
 
-    //% blockId=freddy_init block="MP-Fr3ddy play current"
+    //% blockId=freddy_play_current block="MP-Fr3ddy play current"
     //% group="MP3" weight=46
     export function play_current() {
         if (!initialized) {
@@ -33,7 +33,7 @@ namespace mpfr3ddy {
         pins.digitalWritePin(pinD, 1)
     }
 
-    //% blockId=freddy_init block="MP-Fr3ddy play next"
+    //% blockId=freddy_play_next block="MP-Fr3ddy play next"
     //% group="MP3" weight=45
     export function play_next() {
         if (!initialized) {
@@ -49,7 +49,7 @@ namespace mpfr3ddy {
         playIndex++
     }
 
-    //% blockId=freddy_init block="MP-Fr3ddy play previous"
+    //% blockId=freddy_play_previous block="MP-Fr3ddy play previous"
     //% group="MP3" weight=44
     export function play_previous() {
         if (!initialized) {
@@ -65,13 +65,13 @@ namespace mpfr3ddy {
         playIndex--
     }
 
-    //% blockId=freddy_init block="MP-Fr3ddy play index"
+    //% blockId=freddy_play_index block="MP-Fr3ddy play index"
     //% group="MP3" weight=43
     export function play_index() : Number {
         return playIndex
     }
 
-    //% blockId=freddy_init block="MP-Fr3ddy volume up"
+    //% blockId=freddy_volume_up block="MP-Fr3ddy volume up"
     //% group="MP3" weight=41
     export function volume_up() {
         if (!initialized) {
@@ -85,7 +85,7 @@ namespace mpfr3ddy {
         pins.digitalWritePin(pinD, 1)
     }
 
-    //% blockId=freddy_init block="MP-Fr3ddy volume down"
+    //% blockId=freddy_volume_down block="MP-Fr3ddy volume down"
     //% group="MP3" weight=40
     export function volume_down() {
         if (!initialized) {
