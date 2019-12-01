@@ -7,8 +7,8 @@ namespace mpfr3ddy {
     let playIndex = 0
 
     //% blockId=freddy_init block="MP-Fr3ddy init|Pin A %pina| Pin D %pind"
-    //% pina.defl=DigitalPin.P10
-    //% pind.defl=DigitalPin.P11
+    //% pina.defl=DigitalPin.P1
+    //% pind.defl=DigitalPin.P2
     //% group="MP3" weight=40
     export function initialize(pina: DigitalPin, pind: DigitalPin) {
         pinA = pina
