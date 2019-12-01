@@ -1,5 +1,3 @@
-let distanceBuf = 0
-
 namespace mpfr3ddy {
 
     let pinA : DigitalPin
